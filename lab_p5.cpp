@@ -16,10 +16,10 @@ void f(float P[8][3], int a, int b, int c, int d) {
 	glVertex3fv(P[d]);
 	glEnd();
 }
-void cube() {			// No need to write these comments
-	float P[8][3] = {	// x values -> [-1] 4 times,[+1] 4 times											00001111
-		{-1,-1,-1},		// y values -> [-1] 2 times,[+1] 2 times, [-1] 2 times,[+1] 2 times,				00110011
-		{-1,-1,+1},		// z values -> [-1] 1 time ,[+1] 2 times, [-1] 2 times,[+1] 2 times,[-1] 1 time		01100110
+void cube() {			
+	float P[8][3] = {	
+		{-1,-1,-1},		
+		{-1,-1,+1},		
 		{-1,+1,+1},
 		{-1,+1,-1},
 		{+1,-1,-1},
