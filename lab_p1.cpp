@@ -1,4 +1,3 @@
-/ Bresenham's line drawing
 #include<math.h>
 #include<GL/glut.h>
 
